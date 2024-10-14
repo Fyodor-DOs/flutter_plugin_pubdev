@@ -1,16 +1,32 @@
-# flutter_plugin_pubdev
+Nama    : Ahmed Fathir Syafaat
 
-A new Flutter project.
+Kelas   : TI - 3H
 
-## Getting Started
+NIM     : 2241720083
 
-This project is a starting point for a Flutter application.
+# #07 | Manajemen Plugin
 
-A few resources to get you started if this is your first Flutter project:
+## Praktikum
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Langkah 1: Buat Project Baru
+![alt text](assets/img/L1.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Langkah 2: Menambahkan Plugin
+![alt text](assets/img/L2.png)
+
+### Langkah 3: Buat file red_text_widget.dart
+![alt text](assets/img/L3.png)
+
+### Langkah 4: Tambah Widget AutoSizeText
+![alt text](assets/img/L4.png)
+
+Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian?
+
+> Karena library auto size text belum ter-import
+
+### Langkah 5: Buat Variabel text dan parameter di constructor
+![alt text](assets/img/L5.png)
+
+### Langkah 6: Tambahkan widget di main.dart
+![alt text](assets/img/L6.png)
+
